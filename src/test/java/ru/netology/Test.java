@@ -18,7 +18,7 @@ class TestApi {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data",org.hamcrest.Matchers.equalTo("HelloWorld"))
+                .body("data",org.hamcrest.Matchers.equalTo("Hell"))
         ;
     }
 }
